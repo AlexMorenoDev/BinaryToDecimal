@@ -11,6 +11,7 @@ def binary_to_decimal(binary):
 
     return result 
 
+# Faster method
 def binary_to_decimal_2(binary):
     result = 0
     for n in binary:
